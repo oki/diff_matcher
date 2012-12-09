@@ -1,7 +1,7 @@
 DiffMatcher
 ===
 
-[![build status](http://travis-ci.org/playup/diff_matcher.png)](http://travis-ci.org/playup/diff_matcher)
+[![Build Status](https://travis-ci.org/diff-matcher/diff_matcher.png)](https://travis-ci.org/diff-matcher/diff_matcher)
 [![still maintained](http://stillmaintained.com/playupchris/diff_matcher.png)](http://stillmaintained.com/playupchris/diff_matcher)
 
 Generates a diff by matching against user-defined matchers written in ruby.
