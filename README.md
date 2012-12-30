@@ -2,7 +2,7 @@ DiffMatcher
 ===
 
 [![Build Status](https://secure.travis-ci.org/diff-matcher/diff_matcher.png)](https://travis-ci.org/diff-matcher/diff_matcher)
-[![still maintained](http://stillmaintained.com/playupchris/diff_matcher.png)](http://stillmaintained.com/playupchris/diff_matcher)
+[![still maintained](http://stillmaintained.com/diff-matcher/diff_matcher.png)](http://stillmaintained.com/diff-matcher/diff_matcher)
 
 Generates a diff by matching against user-defined matchers written in ruby.
 
@@ -301,7 +301,7 @@ Using the `:default` colour scheme items shown in a difference are coloured as f
 
 Other colour schemes, eg. `:color_scheme=>:white_background` will use different colour mappings.
 
-  
+
 
 Similar gems
 ---
@@ -437,5 +437,5 @@ Status
 
 Our company is using this gem to test our JSON API which has got above and beyond a stable v1.0.0 release.
 
-There's a [pull request](http://github.com/rspec/rspec-expectations/pull/79) to use this gem in a `be_hash_matching` 
+There's a [pull request](http://github.com/rspec/rspec-expectations/pull/79) to use this gem in a `be_hash_matching`
 [rspec matcher](https://www.relishapp.com/rspec/rspec-expectations).
