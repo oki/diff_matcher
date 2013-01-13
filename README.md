@@ -2,6 +2,8 @@ DiffMatcher
 ===
 
 [![Build Status](https://secure.travis-ci.org/diff-matcher/diff_matcher.png)](https://travis-ci.org/diff-matcher/diff_matcher)
+[![Gem Version](https://badge.fury.io/rb/diff_matcher.png)](http://badge.fury.io/rb/diff_matcher)
+[![Dependency Status](https://gemnasium.com/diff-matcher/diff_matcher.png)](https://gemnasium.com/diff-matcher/diff_matcher)
 [![still maintained](http://stillmaintained.com/diff-matcher/diff_matcher.png)](http://stillmaintained.com/diff-matcher/diff_matcher)
 
 Generates a diff by matching against user-defined matchers written in ruby.
