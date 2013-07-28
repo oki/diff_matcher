@@ -7,9 +7,9 @@ Gem::Specification.new do |s|
   s.name          = "diff_matcher"
   s.version       = DiffMatcher::VERSION.dup
   s.platform      = Gem::Platform::RUBY
-  s.authors       = ["Playup"]
-  s.email         = "chris@playup.com"
-  s.homepage      = "http://github.com/playup/diff_matcher"
+  s.authors       = ["locochris"]
+  s.email         = "chris@locomote.com.au"
+  s.homepage      = "http://github.com/diff-matcher/diff_matcher"
 
   s.summary       = %q{Generates a diff by matching against user-defined matchers written in ruby.}
   s.description   = <<EOF
