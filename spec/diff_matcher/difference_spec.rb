@@ -189,6 +189,18 @@ describe "DiffMatcher::difference(expected, actual, opts)" do
           - "a"+ 0
           Where, - 1 missing, + 1 additional
           EOF
+
+        context "expected class is a subclass of actual class" do
+          class SubString < String; end
+          same = SubString.new("a")
+          different = SubString.new("b")
+
+          it_behaves_like "a diff matcher", expected, same, different,
+            <<-EOF
+            - "a"+ "b"
+            Where, - 1 missing, + 1 additional
+            EOF
+        end
       end
 
       context "when actual is nil" do
