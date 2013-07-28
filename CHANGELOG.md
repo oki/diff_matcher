@@ -1,12 +1,16 @@
 # Changelog
 
+### v2.4.1
+
+* BUGFIX match values where their classes are different but one is a subclass of the other
+
 ### v2.4.0
 
-  Add class configuration of Difference from a block
+* Add class configuration of Difference from a block
 
 ### v2.3.3
 
-  Allow HTML output using `:html_output=>true` option
+* Allow HTML output using `:html_output=>true` option
 
 ### v2.3.2
 
@@ -19,13 +23,13 @@
 ### v2.2.3
 
 * set color_enabled/color_scheme on the class
-  
+
   (ie. so it can be used by default)
 
 ### v2.2.2
 
 * BUGFIX for `AllMatcher`
-  
+
   - return a diff instead of raising an exception
   - (raising an exception was a bad idea as it blew up the entire match
      when used in conjuction with an or-matcher, or embedded into other
@@ -45,7 +49,7 @@
 ### v2.0.0
 
 * Remove `:verbose` option
-  
+
   More often than not users want this as the default.
 
 ### v1.0.1

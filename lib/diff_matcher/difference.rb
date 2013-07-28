@@ -234,7 +234,7 @@ module DiffMatcher
         diff(expected, actual)
       else
         actual
-      end if expected.is_a? actual.class
+      end if expected.is_a?(actual.class) || actual.is_a?(expected.class)
     end
 
     def compare(right, expected, default=nil)
