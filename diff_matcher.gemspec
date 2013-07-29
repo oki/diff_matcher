@@ -10,6 +10,7 @@ Gem::Specification.new do |s|
   s.authors       = ["locochris"]
   s.email         = "chris@locomote.com.au"
   s.homepage      = "http://github.com/diff-matcher/diff_matcher"
+  s.licenses      = %w{ BSD MIT }
 
   s.summary       = %q{Generates a diff by matching against user-defined matchers written in ruby.}
   s.description   = <<EOF

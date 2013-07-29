@@ -1,5 +1,9 @@
 # Changelog
 
+### v2.5.0
+
+* Add rspec custom matcher `be_matching`
+
 ### v2.4.1
 
 * BUGFIX match values where their classes are different but one is a subclass of the other
