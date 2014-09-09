@@ -1,5 +1,9 @@
 # Changelog
 
+### v2.6.0
+
+* Add rspec custom matcher `be_matching` for RSpec v3.x
+
 ### v2.5.0
 
 * Add rspec custom matcher `be_matching`
