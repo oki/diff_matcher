@@ -6,7 +6,14 @@ rvm:
   - 1.9.3
   - rbx
 #  - rbx-19mode
+  - rbx-2
   - jruby
   - ree
-#  - ruby-head
   - 2.0.0
+  - 2.1.1
+  - ruby-head
+
+matrix:
+  allow_failures:
+    - rvm:
+      - rbx
