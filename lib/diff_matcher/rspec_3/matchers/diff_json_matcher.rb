@@ -17,11 +17,11 @@ RSpec::Matchers.define :be_json_matching do |expected|
     @options = options
   end
 
-  failure_message_for_should do |actual|
+  failure_message do |actual|
     "diff is:\n" + @difference.to_s
   end
 
-  failure_message_for_should_not do |actual|
+  failure_message_when_negated do |actual|
     "diff is:\n" + @difference.to_s
   end
 
