@@ -5,6 +5,7 @@ DiffMatcher
 [![Gem Version](https://badge.fury.io/rb/diff_matcher.png)](http://badge.fury.io/rb/diff_matcher)
 [![Dependency Status](https://gemnasium.com/diff-matcher/diff_matcher.png)](https://gemnasium.com/diff-matcher/diff_matcher)
 [![still maintained](http://stillmaintained.com/diff-matcher/diff_matcher.png)](http://stillmaintained.com/diff-matcher/diff_matcher)
+[![diff_matcher API Documentation](https://www.omniref.com/ruby/gems/diff_matcher.png)](https://www.omniref.com/ruby/gems/diff_matcher)
 
 Generates a diff by matching against user-defined matchers written in ruby.
 
