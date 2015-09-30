@@ -273,7 +273,12 @@ module DiffMatcher
         when Range  ; [expected.include?(actual)                      , :match_range  ]
         when Proc   ; [expected.call(actual)                          , :match_proc   ]
         when Regexp ; [actual.is_a?(String) && actual.match(expected) , :match_regexp ]
-        else          [actual == expected                             , :match_value  ]
+        else
+          if expected.respond_to?(:matches?)
+            [expected.matches?(actual), :match_rspec_matcher]
+          else
+            [actual == expected, :match_value  ]
+          end
       end
     end
 
